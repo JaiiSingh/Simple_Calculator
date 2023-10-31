@@ -2,11 +2,11 @@ let string='';
 let buttons=document.querySelectorAll('.btn');
 Array.from(buttons).forEach((buttons)=>{
     var num;
-    buttons.addEventListener('hover',(e)=>{
-        if(e.target.innerHTML=='AC'){
-            buttons.classList.add(".ac")
-        }
-    })
+    // buttons.addEventListener('hover',(e)=>{
+    //     if(e.target.innerHTML=='AC'){
+    //         buttons.classList.add(".ac")
+    //     }
+    // })
     buttons.addEventListener('click',(e)=>{
         if(e.target.innerHTML =='AC'){
             string='';
